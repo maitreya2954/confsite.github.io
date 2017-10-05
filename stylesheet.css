@@ -1,0 +1,251 @@
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+body{
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
+/***********HEADER************/
+header{
+    background-color: #ffffff;
+    margin: 0;
+}
+header img{
+    width: 100%;
+}
+
+#headerimg
+{
+    height: 126px;
+    width: 100%;
+    background-color: #e37222;
+}
+#organizer{
+    height: 100%;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    /*background-color: #f3a136;*/
+    background-color: #07889b;
+    border-top: solid 3px;
+    border-bottom: solid 2px;
+    border-color: whitesmoke;
+    color: ghostwhite;
+}
+#organizer p{
+    font-size: 20px;
+    padding-top: 0px;
+}
+/************NAVBAR************/
+
+div.container-fluid
+{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    
+    list-style:none;
+    font-family:'Source Sans Pro';
+    font-size:23px;
+    font-weight: 600;
+    background-color: #07889b;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom: 0;
+}
+
+#navbar li {
+    position:relative;
+    display:inline;
+}
+
+#navbar li a {
+    text-decoration:none;
+    color: whitesmoke;
+    display:inline-block;
+    padding:15px;
+    margin: 0px 30px;
+}
+
+#navbar span {
+  display:block;
+  width:calc(100% - 23px);
+  height:4px;
+  background: whitesmoke;
+  position:absolute;
+  left:10px;
+  bottom:-18px;
+}
+
+#navbar li a:hover {
+ 	color: #eeaa78;
+    text-decoration: none;
+}
+
+#navbar li a:hover ~ span {
+ 	animation:ul 0.4s ease-out;
+    background: #eeaa78;
+}
+
+@keyframes ul{
+ 	0% { 
+    width:0%;
+  }
+  100% { 
+    width:calc(100% - 23px);
+  }
+}
+
+.Otherlinks ul{
+    margin: 0px;
+    border-radius: 15px;
+}
+
+.Otherlinks ul li a{
+    text-align: center;
+    margin: 10px 0px;
+    background-color: #66b9bf;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 2px 5px 8px 0px rgba(0,0,0,0.6);
+}
+
+.Otherlinks ul li a:hover{
+    background-color: #07889b;
+    box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.6);
+}
+
+#right-block{
+    float: right;
+    height: 100%;  
+    background-color: #66b9bf;
+    margin: 15px 0px 15px 0;
+    border-radius: 15px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+#left-block{
+    z-index: 1;
+    float: left;
+    padding: 0 10px 0 10px;
+    margin-bottom: 20px;
+}
+
+#centre-block p{
+    text-align: justify;
+    color: rgba(0,0,0,0.6);
+}
+
+
+#solid_part{
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+}
+
+#organizing_committee h4{
+    color: rgba(0,0,0,0.6);
+    text-decoration: underline;
+}
+
+img.members{
+    margin: 10px;
+    border-radius: 25px;
+    background: #66b9bf;
+    padding: 4px;
+    width: 150px;
+}
+
+#centre-block .container-fluid{
+    text-align: center;
+    align-content: center;
+    border-bottom: solid #66b9bf;
+    border-bottom-width: thin;
+}
+
+/**********FOOTER*************/
+footer{
+    background-color: #595959;
+    height: 370px;
+    z-index: 2;
+    font-size: 15px;
+}
+
+footer h3,h4,p{
+    color: whitesmoke;
+}
+
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+
+#googlemap{
+    display: inline;
+    margin-right: 30px;
+    float: right;
+    height: 300px; 
+    align-content: center;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+@media all and (max-width: 1000px)
+{
+    #googlemap{
+        display: none;
+    }
+}
+    
+#footertext{
+    display: inline;
+    float: left;
+    height: 100%;
+}
+#list1{
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-top: 25px;
+}
+#footertext ul{    
+    list-style: none;
+}
+
+
+#footertext ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#footertext ul li a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+#list2{
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-top: 25px;
+}
+
+footer p.copy{
+    position: absolute;
+    color: whitesmoke;
+    bottom: 0;
+    margin: 2px 0px;
+    font-size: 18px;
+}
+
+img.sponser-logo{
+    width: 100px;
+    margin: 5px;
+}
