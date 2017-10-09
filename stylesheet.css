@@ -65,6 +65,7 @@ div.container-fluid
     display:inline-block;
     padding:15px;
     margin: 0px 30px;
+    
 }
 
 #navbar span {
@@ -86,6 +87,28 @@ div.container-fluid
  	animation:ul 0.4s ease-out;
     background: #eeaa78;
 }
+
+
+
+#navbar #activetag{
+    padding: 17px 0;
+    background-color: #E8711E;
+}
+
+
+#navbar #activetag a:hover{
+    color: whitesmoke;
+}
+
+#activetag a{
+    background-color: #E8711E;
+}
+
+
+#left-block #activetag a:hover{
+    color: whitesmoke;
+}
+
 
 @keyframes ul{
  	0% { 
@@ -167,6 +190,11 @@ img.conftour{
     align-content: center;
     border-bottom: solid #66b9bf;
     border-bottom-width: thin;
+}
+
+#pdfviewer{
+    margin-top: 20px;
+    height: 400px;
 }
 
 /**********FOOTER*************/
