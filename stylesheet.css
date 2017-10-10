@@ -158,7 +158,7 @@ div.container-fluid
 
 #centre-block p{
     text-align: justify;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.8);
 }
 
 #solid_part{
@@ -167,9 +167,14 @@ div.container-fluid
     margin-top: 35px;
 }
 
-#organizing_committee h4{
+#organizing_committee h3{
     color: rgba(0,0,0,0.6);
     text-decoration: underline;
+}
+
+#organizing_committee{
+    padding-left: 50px;
+    margin-bottom: 50px;
 }
 
 img.members{
@@ -197,6 +202,9 @@ img.conftour{
     height: 400px;
 }
 
+#international_advisory{
+    padding-left: 50px;
+}
 
 /**********FOOTER*************/
 footer{
