@@ -109,6 +109,10 @@ div.container-fluid
     color: whitesmoke;
 }
 
+#sponsers-centre img{
+    width: 150px;
+}
+
 
 @keyframes ul{
  	0% { 
