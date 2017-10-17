@@ -190,6 +190,14 @@ img.members{
     height: 170px;
 }
 
+img.speakerhome{
+    
+    border-radius: 15px;
+      
+}
+img.sponsimage{
+   width: 150px; 
+}
 img.conftour{
     width: 40%;
     margin: 20px;
