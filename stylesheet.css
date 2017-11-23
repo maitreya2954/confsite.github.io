@@ -153,6 +153,22 @@ div.container-fluid
     color: whitesmoke;
 }
 
+#menu li
+{
+    margin: 20px;
+}
+
+#menu li a{
+    color: rgba(0,0,0,0.8);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
 #left-block{
     z-index: 1;
     float: left;
