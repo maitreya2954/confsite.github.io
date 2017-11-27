@@ -52,6 +52,7 @@ div.container-fluid
     text-align:center;
     margin-top:0px;
     margin-bottom: 0;
+    
 }
 
 #navbar li {
@@ -152,11 +153,15 @@ div.container-fluid
     padding: 20px;
     color: whitesmoke;
 }
-
 .index-heading{
     color: rgba(0,0,0,0.8)
 /*    color: navy;*/
 }
+#right-block h3
+{
+    color: #E18003;
+}
+
 #menu li
 {
     margin: 20px;
