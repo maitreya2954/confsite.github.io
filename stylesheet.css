@@ -153,6 +153,10 @@ div.container-fluid
     color: whitesmoke;
 }
 
+.index-heading{
+    color: rgba(0,0,0,0.8)
+/*    color: navy;*/
+}
 #menu li
 {
     margin: 20px;
