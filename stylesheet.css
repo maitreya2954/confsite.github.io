@@ -153,11 +153,17 @@ div.container-fluid
     padding: 20px;
     color: whitesmoke;
 }
+<<<<<<< HEAD
 
 #right-block h3
 {
     color: #e37222; 
+=======
+.index-heading{
+    color: rgba(0,0,0,0.8);
+>>>>>>> 46fc49089359a4f2bf49d9f47577044451ed8da8
 }
+
 
 #menu li
 {
