@@ -156,9 +156,12 @@ div.container-fluid
 
 #right-block h3
 {
-    color: #E18003;
+    color: #ff1a1a;
 }
-
+#right-block h5
+{
+    color: #0d0d0d;
+}
 #menu li
 {
     margin: 20px;
@@ -174,6 +177,7 @@ div.container-fluid
     color: black;
     text-decoration: underline;
 }
+
 
 #left-block{
     z-index: 1;
