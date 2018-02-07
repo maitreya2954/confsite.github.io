@@ -101,6 +101,19 @@ div.container-fluid
     color: whitesmoke;
 }
 
+.flash {
+   animation-name: flash;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: #07889b;}
+    to {color: #ff1a1a;}
+}
 #activetag a{
     background-color: #E8711E;
 }
