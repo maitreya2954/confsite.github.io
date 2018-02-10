@@ -101,6 +101,19 @@ div.container-fluid
     color: whitesmoke;
 }
 
+.flash {
+   animation-name: flash;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: #07889b;}
+    to {color: #ff1a1a;}
+}
 #activetag a{
     background-color: #E8711E;
 }
@@ -156,9 +169,12 @@ div.container-fluid
 
 #right-block h3
 {
-    color: #E18003;
+    color: #ff1a1a;
 }
-
+#right-block h5
+{
+    color: #0d0d0d;
+}
 #menu li
 {
     margin: 20px;
@@ -174,6 +190,7 @@ div.container-fluid
     color: black;
     text-decoration: underline;
 }
+
 
 #left-block{
     z-index: 1;
