@@ -133,6 +133,10 @@
     
             
                 <div id="imageblock" class="col-md-6 col-xs-12 col-sm-12">
+                <strong>Please download the Rulebook of the Competition here. </strong>
+                <object data='Rulebook.pdf' type='application/pdf' width='100%' height='100%' id="pdfviewer">
+                    <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="poster.pdf">Download PDF</a></p>
+                </object>
                 <h2>Track details</h2>
                     <img src="robotcomp/1.jpg" width="125%">
                     <img src="robotcomp/2.jpg" width="125%" style="margin-bottom: 20px;">
@@ -183,5 +187,10 @@
                 <h4><strong>Email</strong>: rosma2018@iiitdm.ac.in<br><strong>Conf. URL</strong>: <a href="http://www.iiitdm.ac.in/rosma2018" target="_blank">www.iiitdm.ac.in/rosma2018/</a><br><strong>Inst. URL</strong>: <a href="http://iiitdm.ac.in" target="_blank">www.iiitdm.ac.in</a></h4>
            </div>
         </footer>
+        <script src="PDFObject-master/pdfobject.js"></script>
+        <script>
+        //Be sure your document contains an element with the CSS selector "pdfviewver"
+        PDFObject.embed("rescue_robot_final.pdf", "pdfviewer");
+        </script>
     </body>
 </html>
